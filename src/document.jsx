@@ -4,7 +4,8 @@
 import { Meta, Title, Links, Main, Scripts } from 'ice';
 import { description } from '../package.json';
 
-export default function Document() {
+export default function Document(...arg) {
+  console.log('🚀~ 8 Document arg', arg)
   return (
     <html>
       <head>
